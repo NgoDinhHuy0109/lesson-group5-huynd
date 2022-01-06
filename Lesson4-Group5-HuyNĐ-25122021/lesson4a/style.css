@@ -1,0 +1,50 @@
+*{
+  border: 1px solid;
+  box-sizing: border-box;
+}
+h1{
+  font-size: 40px;
+  font-weight: 900;
+  color: black;
+}
+p{
+  font-size: 20px;
+  color: #333333;
+  }
+.title{
+  color: blue;
+}
+.uppercase{
+  text-transform: uppercase;
+}
+#article-title{
+  font-family: cursive;
+}
+.img1{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+a:link[href*"florence"]{
+  color: blueviolet
+}
+a:link:hover[href*"florence"]{
+  color: orange
+}
+a:link {
+    color: red
+    text-decoration: none;
+    }
+    
+a:visited {
+    color: pink;
+    }
+    
+a:hover {
+    color: green;
+    }
+    
+a:active {
+    color: black
+    }
