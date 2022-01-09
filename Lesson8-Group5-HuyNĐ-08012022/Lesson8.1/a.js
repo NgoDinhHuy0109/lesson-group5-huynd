@@ -1,6 +1,6 @@
 const operator = prompt('Enter operator (either +,-,* or /) : ');
-let num1 = prompt('Enter number 1 :');
-let num2 = prompt('Enter number 2 :');
+let num1 = parseInt(prompt('Enter number 1 :'));
+let num2 = parseInt(prompt('Enter number 2 :'));
 let result;
 if(operator === "+"){
     result = num1 + num2;
