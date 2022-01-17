@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter&display=swap');
+
+* {
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    font-family: Bitter, cursive;
+    font-size: 62.5%;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+button {
+    font-size: 1.5rem;
+    font-family: Bitter;
+}
+
+h1 {
+    width: 100%;
+    padding: 10px 10px;
+    text-align: center;
+    font-family: Lobster, cursive;
+    font-size: 6rem;
+    color: white;
+    background: #0f0c29;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #24243e, #302b63, #0f0c29);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #24243e, #302b63, #0f0c29);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+@media (max-width: 320px) {
+    h1 {
+        font-size: 3rem;
+    }
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
